@@ -22,7 +22,7 @@ const App = () => {
       <input
         type="number"
         value={max}
-        onChange={(e) => e.target.value}
+        onChange={(e) => setmax(e.target.value)}
         id="char-limit-input"
       />
       <br />
